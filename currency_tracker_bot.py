@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup as bs
 import telebot
 from telebot import types
 
-bot = telebot.TeleBot('5951845046:AAGo_Oytsgvv5jezbhWXLWoczoVNrnZdvCI')
+bot = telebot.TeleBot('TOKEN')
 
 MINFIN_URL_USD = "https://minfin.com.ua/ua/currency/auction/usd/sell/dnepropetrovsk/?compact=true"
 MINFIN_URL_EUR = "https://minfin.com.ua/ua/currency/auction/eur/sell/dnepropetrovsk/?compact=true"
